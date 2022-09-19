@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE libretti SYSTEM "file.dtd">
+<libretti>
+    <libretto>
+        <studente cdl="cdl" matricola="2953">
+            <nome>Lorenzo</nome>
+            <cognome>Marchisio</cognome>
+        </studente>
+        <esami>
+            <esame>
+                <materia>ITA</materia>
+                <voto>21</voto>
+                <data>12/09/2018</data>
+            </esame>
+            <esame>
+                <materia>INF</materia>
+                <voto>24</voto>
+                <data>12/07/2018</data>
+            </esame>
+        </esami>
+    </libretto>
+    <libretto>
+        <studente cdl="cdl" matricola="1875">
+            <nome>Enricp</nome>
+            <cognome>Testa</cognome>
+        </studente>
+        <esami>
+            <esame>
+                <materia>ITA</materia>
+                <voto>18</voto>
+                <data>12/09/2018</data>
+            </esame>
+            <esame>
+                <materia>INF</materia>
+                <voto>21</voto>
+                <data>12/07/2018</data>
+            </esame>
+        </esami>
+    </libretto>
+</libretti>
