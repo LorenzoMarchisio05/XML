@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE verbali SYSTEM "file.dtd">
+<verbali>
+    <verbale>
+        <studente cdl="007" matr="001234">
+            <nome>nome</nome> <nome>nome</nome>
+            <cognome>cognome</cognome>
+        </studente>
+        <esame>
+            <materia>Gastronomia</materia> <docente>Vissani</docente>
+            <voto>30</voto> <lode>SI</lode> <data>12/04/2000</data>
+        </esame>
+    </verbale>
+</verbali>
