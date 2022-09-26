@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE utenti SYSTEM "file.dtd">
+<utenti>
+    <utente>
+        <preferiti>
+            <brano>
+                <nome>playlist</nome>
+                <autore>autore</autore>
+                <durata>3 mesi</durata>
+                <url> urloso </url>
+            </brano>
+        </preferiti>
+        <playlist>
+            <brano>
+                <nome>playlist</nome>
+                <autore>autore</autore>
+                <durata>3 mesi</durata>
+                <url> urloso </url>
+            </brano>
+            <brano>
+                <nome>brano</nome>
+                <autore>autore 2</autore>
+                <durata>3 minuti</durata>
+                <url> urloso </url>
+            </brano>
+            <brano>
+                <nome>branoso</nome>
+                <autore>autore</autore>
+                <durata>3 ore</durata>
+                <url> urloso </url>
+            </brano>
+        </playlist>
+    </utente>
+    <utente premium="true">
+        <playlist>
+            <brano>
+                <nome>branoso</nome>
+                <autore>autore</autore>
+                <durata>3 ore</durata>
+                <url> urloso </url>
+            </brano>
+        </playlist>
+    </utente>
+</utenti>

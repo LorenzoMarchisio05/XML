@@ -1,0 +1,11 @@
+<!ELEMENT utenti (utente*) >
+<!ELEMENT utente (preferiti? , playlist+) >
+<!ATTLIST utente 
+            premium CDATA #FIXED "true" >
+<!ELEMENT playlist (brano+) >
+<!ELEMENT preferiti (brano+) >
+<!ELEMENT brano (nome, autore , durata, url) >
+<!ELEMENT nome (#PCDATA)>
+<!ELEMENT autore (#PCDATA)>
+<!ELEMENT durata (#PCDATA)>
+<!ELEMENT url (#PCDATA)>

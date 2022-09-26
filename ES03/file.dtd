@@ -1,0 +1,6 @@
+<!ELEMENT batch (richiesta*) >
+<!ELEMENT richiesta (comando , parametro*) >
+<!ELEMENT comando (#PCDATA) >
+<!ELEMENT parametro (nome , valore) >
+<!ELEMENT nome (#PCDATA) >
+<!ELEMENT valore (#PCDATA) >
