@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE root SYSTEM "file.dtd">
+<root>
+    <sessione>
+        <id>ID</id>
+        <account nome="nome" email="mail@gmail" tipo="normale">
+            <sotto-account nome="nomesotto account" />
+            <sotto-account nome="nomesotto account" />
+        </account>
+        <video nome="video 1">
+            <commento>
+                <nome-utente>nome</nome-utente>
+                <messaggio>messaggio commento</messaggio>
+            </commento>
+        </video>
+    </sessione>
+    <sessione>
+        <id>ID</id>
+        <account nome="nome" email="mail@gmail" tipo="premium">
+        </account>
+        <video nome="video 1">
+            <commento>
+                <nome-utente>nome</nome-utente>
+                <messaggio>messaggio commento</messaggio>
+            </commento>
+        </video>
+        <video nome="video 2">
+            <commento>
+                <nome-utente>commento 2</nome-utente>
+                <messaggio>messaggio commento</messaggio>
+            </commento>
+        </video>
+    </sessione>
+</root>

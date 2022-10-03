@@ -1,0 +1,18 @@
+<!ELEMENT root (sessione*) >
+<!ELEMENT sessione (id, account, video+) >
+<!ELEMENT id (#PCDATA) >
+<!ELEMENT video (commento*) >
+<!ATTLIST video 
+            nome CDATA #REQUIRED 
+            serie CDATA #IMPLIED >
+<!ELEMENT commento (nome-utente, messaggio) >
+<!ELEMENT nome-utente (#PCDATA) >
+<!ELEMENT messaggio (#PCDATA) >
+<!ELEMENT account (sotto-account*) >
+<!ATTLIST account 
+            nome CDATA #REQUIRED 
+            email CDATA #REQUIRED 
+            tipo (normale|premium|vip) #REQUIRED >
+<!ELEMENT sotto-account EMPTY >
+<!ATTLIST sotto-account 
+            nome CDATA #REQUIRED >
