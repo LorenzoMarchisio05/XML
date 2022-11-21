@@ -1,0 +1,36 @@
+/* ---------- box-sizing and resets ------------- */
+
+*,
+::before,
+::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+/* ---------- start writing here ------------- */
+
+.btn {
+    width: max-content;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.box {
+    position: relative;
+
+    width: 75px;
+    aspect-ratio: 1;
+
+    background-color: hsl(300, 100%, 35%);
+    border: 3px solid hsl(300, 100%, 25%);
+}
