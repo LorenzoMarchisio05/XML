@@ -82,4 +82,49 @@ $("#fourth button").on("click", function () {
 }
 
 // sixth
-$("#sixth button").on("click", function () {});
+{
+    const text = $("#sixth #testoDaAnimare");
+
+    $("#sixth button:first").on("click", function () {
+        text.animate({
+            "font-size": "46px",
+        }).animate({
+            "border-width": "30px",
+        });
+    });
+
+    $("#sixth #reset").on("click", function () {
+        text.removeAttr("style");
+    });
+}
+
+// seventh
+$("#seventh button").on("click", function () {
+    const h1 = $(this).siblings("h1");
+
+    const p = $(this).siblings("p");
+
+    h1.text("brava ziah").fadeOut("slow");
+
+    p.text("").fadeOut("slow");
+});
+
+// eigth
+$("#eigth button").on("click", function () {
+    $(this).siblings("p").slideToggle("slow");
+    alert("tua mamma");
+});
+
+// ninth
+$("#ninth button").on("click", function () {
+    $(this)
+        .siblings("p")
+        .slideToggle("slow", () => alert("tua mamma"));
+});
+
+// tenth
+$("#tenth button").on("click", function () {
+    $(this)
+        .siblings("p, h1")
+        .slideToggle("slow", () => alert("tua mamma"));
+});
