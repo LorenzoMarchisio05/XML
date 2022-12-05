@@ -1,0 +1,22 @@
+{
+    "compositori": [
+        {
+            "nome": "Amadeus Mozart",
+            "data_nascita": "1756-01-27",
+            "data_morte": "1791-12-05",
+            "epoca": "classicismo"
+        },
+        {
+            "nome": "Franz Schubert",
+            "data_nascita": "1797-01-31",
+            "data_morte": "1828-11-19",
+            "epoca": "romanticismo"
+        },
+        {
+            "nome": "Ludwig van Beethoven",
+            "data_nascita": "1770-12-17",
+            "data_morte": "1827-03-26",
+            "epoca": "romanticismo"
+        }
+    ]
+}
